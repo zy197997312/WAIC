@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: rgb(248,248,248);
+}
+body{
+	background-image:url(../img/timg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.video{
+	position: fixed;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	text-align: center;
+	overflow: hidden;
+	background: url(http://www.moji.com/templets/mojichina/img/video/index_bg.jpg?v=111) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.video video{
+	padding:0 ;
+	margin: 0;
+	width:100%;
+	height:auto;
+	position: absolute;
+	left:0;
+
+}
+header{
+	/*background: rgba(150,150,150,0.2);*/
+	position: absolute;
+	top:0;
+	width: 100%;
+	/*box-shadow:2px 2px 3px rgba(0,0,0,0.1);*/
+}
+#home{
+	height: 35px;
+	position: absolute;
+	right:2%;
+	top:30%;
+}
+
+header img{
+	height: 100px;
+	vertical-align: middle;
+	margin:15px 3% 15px 5%;
+}
+header h1{
+	display: inline;
+	margin: 0 15%;
+	font-size: 40px;
+	font-family: "微软雅黑";
+	text-shadow:3px 3px 4px rgba(0,0,0,0.3);
+}
+ button{
+	margin: 30px 2%;
+	 width: 96%;
+	outline: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 1px solid rgba(248,248,248,.6);
+	font-family: "微软雅黑";
+	font-size: 25px;
+	 line-height: 50px;
+	display: block;
+	background-color:rgba(0,0,0,0.2);
+ 	color:  rgba(248,248,248,.8);
+}
+button:hover{
+	cursor: pointer;
+	background-color:rgba(0,0,0,0.6);
+ 	color: rgba(256,256,256,1);
+}
+
+#placeplot{
+	height: 25px;
+	margin-right: 10px;
+	vertical-align:middle;
+}
+#DATE{
+	height: 15px;
+	margin-right: 10px;
+}
+#time_place{
+	padding-top: 200px;
+	overflow: hidden;
+}
+#time_place ul li{
+	float:left;
+	list-style: none;
+	margin: 2px;
+	width: 25%;
+	font-size: 25px;
+	text-align: center;
+}
+#time_place ul li:nth-child(2) {
+	font-size: 90px;
+	width: 45%;
+	padding:20px 0;
+	font-style: italic;
+	font-weight: bold;
+}
+#time_place ul li p{
+	margin: 0;
+	padding: 0;
+	line-height: 70px;
+}
+#insert_weather_img{
+	height:40px;
+	vertical-align:middle;
+}
+time{
+	font-size: 20px;
+	vertical-align: middle;
+}
+section{
+	padding: 0 2%;
+	text-shadow:3px 3px 4px rgba(0,0,0,0.3);
+}
+#show_data ul li,#video{
+	list-style: none;
+	padding: 2%;
+	background: rgba(0,0,0,0.2);
+	margin: 15px 2%;
+	border-radius: 5px;
+	/*box-shadow:2px 2px 3px rgba(0,0,0,0.3);*/
+}
+#show_data ul li{
+	float: left;
+	width: 42%;
+}
+#show_data h3{
+	text-align: center;
+	font-size: medium;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #FFF;
+
+}
+
+#show_data p{
+	padding: 15px 10px 15px 5%;
+	font-size: x-large;
+	font-family: "Times New Roman";
+}
+#show_data img{
+	vertical-align: middle;
+	height: 28px;
+	margin-right: 4%;
+}
+#video,.zhu{
+	clear: both;
+	margin: 0 2%;
+	height: auto;
+	overflow: hidden;
+	padding: 2% 0;
+}
+#container{
+	width:96%;
+	height:400px;
+	margin:0 auto;
+}
+#partner_name{
+	height: 200px;
+	width: 100px;
+	position: fixed;
+	top:100px;
+	right: 0;
+	padding: 0;
+	display: none;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+#partner_name ul li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实时气象</title>
+<script type="text/javascript" src="jwplayer.js"></script>
+<style>
+	#player{
+		padding: 0;
+		margin: 0  ;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url(img/playbg.jpg);
+	}
+</style>
+</head>
+<body>
+   <div id="player">
+   	  
+   <div>
+   	   
+   	   
+   </div>
+   	
+   	
+       <script type="text/javascript">
+            jwplayer("player").setup({
+                flashplayer:"player.swf",
+                image:"preview.jpg",
+                file:"stream1497576771208",
+                streamer:"rtmp://115.159.95.196:1935/oflaDemo"
+            });
+       </script>
+   </div>
+</body>
+</html>

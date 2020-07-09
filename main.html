@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/highcharts.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <link rel="icon" href="https://static.jianshukeji.com/highcharts/images/favicon.ico">
+</head>
+<body>
+<header id="head">
+    <img src="img/5IMG.png"/>
+    <h1> </h1>
+    <!--<input type="text" name="" id="seach" placeholder="Search" />-->
+    <!--<button>search</button>-->
+    <img src="img/房子.png" id="home" onmouseenter="displayname()"/>
+</header>
+<section>
+    <div id="time_place">
+        <ul>
+            <li></li>
+            <li>
+                <p>
+                    <span id="weather_data">21</span>
+                    &degC
+                </p>
+                <p>
+                    <img id="insert_weather_img" src="img/sun.png"/>
+                    <time id="Time"></time>
+                </p>
+            </li>
+            <li>
+                <h2><img src="img/pla.png" id="placeplot"/>武汉</h2>
+                <img src="img/日期.png" id="DATE"/>
+                <time id="Time_Date"></time>
+            </li>
+        </ul>
+    </div>
+    <div id="show_data">
+        <ul>
+            <li>
+                <h3>当天细节</h3>
+                <p id=""><img src="img/温度.png"/>温&nbsp;&nbsp;&nbsp;&nbsp;度(&deg;C) &nbsp;:
+                    <span id="">30</span> /
+                    <span id="">20</span> /
+                    <span id="">26</span>
+                </p>
+                <p id=""><img src="img/湿度.png"/>湿度(%RH)：
+                    <span id="">30</span> /
+                    <span id="">20</span> /
+                    <span id="">26</span>
+                </p>
+                <p id=""><img src="img/光照度.png"/>光&nbsp;&nbsp;照(Lux)：
+                    <span id="">30</span> /
+                    <span id="">20</span>  /
+                    <span id="">26</span>
+                </p>
+                <p>注：最高值/平均值/最低值</p>
+            </li>
+            <li>
+                <h3>风向&预测</h3>
+                <p id=""><img src="img/风速.png"/>风速(m/s)：
+                    <span id="">30</span> /
+                    <span id="">20</span> /
+                    <span id="">26</span>
+                </p>
+                <p id=""><img src="img/风向.png"/>风&nbsp;&nbsp;向 ( &deg; )：
+                    <span id="">30</span> /
+                    <span id="">20</span> /
+                    <span id="">26</span>
+                </p>
+                <p id=""><img src="img/描述.png"/>预&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 测：
+                    <span id="">多云</span> &
+                    <span id="">最低</span> /
+                    <span id="">最高</span>&deg;c &
+                </p>
+                <p>
+                    <label style="margin-left: 195px; ">风速：</label><span id="">风速</span> m/s &
+                    风向：<span id="">风向</span> &deg;</p>
+            </li>
+        </ul>
+        <!--温度曲线-->
+        <div id="video">
+
+            <div id="container" ></div>
+            <!--<div style="text-align:center;clear:both;">-->
+
+        </div>
+        <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=3430af2a-adbe-42d4-b822-0a7dd14b286e&serviceInstanceID=5e1a1910-2cdd-4702-bc42-0163b5bdc626" ><button>点击 询问小助手</button></a>
+        <a href="new_file.html" ><button>大数据分析结果</button></a>
+
+    </div>
+</section>
+<section class="video">
+    <video  loop="loop" autoplay="autoplay">
+        <source src="http://cdn.moji.com/websrc/video/video314.mp4 " type="video/mp4">
+    </video>
+</section>
+<div id="partner_name">
+    <ul>
+        <li>周宇</li>
+    </ul>
+</div>
+
+</body>
+</html>
